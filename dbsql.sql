@@ -1,4 +1,3 @@
-create table user(userid integer primary key autoincrement,username text not null,password text not null,email text not null,gender text check(gender  in ('male', 'female')),
-    create_at timestamp default CURRENT_TIMESTAMP
-);
+create table user(memoid integer primary key autoincrement,memonum text not null,memo text not null);
 
+--drop table user;
